@@ -1,8 +1,7 @@
 In this repository, we share an implementation of preview control. 
 
 For the details of the implementation and citation please refer to :
-- [Self-scheduling robust preview controllers for path tracking and autonomous vehicles](http://www.academia.edu
-/download/54870827/assc2017.pdf)
+- [Self-scheduling robust preview controllers for path tracking and autonomous vehicles](http://www.academia.edu/download/54870827/assc2017.pdf)
 
 The repository consists of four matlab script files. 
 - a file loads generic parameters for simulating the control
