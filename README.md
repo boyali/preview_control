@@ -3,14 +3,14 @@ In this repository, we share an implementation of preview control.
 For the details of the implementation and citation please refer to :
 - [Self-scheduling robust preview controllers for path tracking and autonomous vehicles](http://www.academia.edu/download/54870827/assc2017.pdf)
  
-@inproceedings{boyali2017self, <br>
-  title={Self-scheduling robust preview controllers for path tracking and autonomous vehicles},<br>
-  author={Boyali, Ali and John, Vijay and Lyu, Zheming and Swarn, Rathour and Mita, Seichi},<br>
-  booktitle={2017 11th Asian Control Conference (ASCC)},<br>
-  pages={1829--1834},<br>
-  year={2017},<br>
-  organization={IEEE}<br>
-} 
+        @inproceedings{boyali2017self, <br>
+          title={Self-scheduling robust preview controllers for path tracking and autonomous vehicles},<br>
+          author={Boyali, Ali and John, Vijay and Lyu, Zheming and Swarn, Rathour and Mita, Seichi},<br>
+          booktitle={2017 11th Asian Control Conference (ASCC)},<br>
+          pages={1829--1834},<br>
+          year={2017},<br>
+          organization={IEEE}<br>
+        } 
 
 The repository consists of four matlab script files. 
 - a file loads generic parameters for simulating the control
@@ -22,8 +22,8 @@ For computations first run `a01_hinfwPoles_LMI_solution.m`. For plotting the res
 
 In the LMI solution script, we set number of preview points and the longitudinal speed range using:
 
-np =50;                             % Number of Preview Points  
-VxBound=[5, 30];                     % Polytope Lower and Upper Bounds 
+        np =50;                             % Number of Preview Points  
+        VxBound=[5, 30];                     % Polytope Lower and Upper Bounds 
 
 and compute the preview coefficients (feedforward) together with the feedback for the vehicle states. A set of
  figures are produced by the second script file. 
