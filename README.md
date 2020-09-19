@@ -8,7 +8,7 @@ The repository consists of four matlab script files.
 - a file that implements uncertain system for the LMI computations
 - a post-visualizing simulation file that simulates the control performance
 
-For computations first run `a01_hinfwPoles_LMI_solution.m`. For plotting the results run
+For computations first run `a01_hinfwPoles_LMI_solution.m`. For plotting the results.  run
   `a02_simulate_forrange_of_Vx.m`. 
 
 In the LMI solution script, we set number of preview points and the longitudinal speed range using:
